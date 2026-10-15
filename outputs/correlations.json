@@ -1,0 +1,309 @@
+{
+  "converted": {
+    "n": 232,
+    "events": 33,
+    "correlations": {
+      "active_days": {
+        "r": 0.164,
+        "ci95": [
+          0.06,
+          0.263
+        ],
+        "outcome_yes_mean": 5.33,
+        "outcome_no_mean": 4.56
+      },
+      "AI_attempts": {
+        "r": 0.179,
+        "ci95": [
+          0.06,
+          0.306
+        ],
+        "outcome_yes_mean": 115.58,
+        "outcome_no_mean": 83.34
+      },
+      "attempts_per_active_day": {
+        "r": 0.145,
+        "ci95": [
+          0.033,
+          0.283
+        ],
+        "outcome_yes_mean": 20.95,
+        "outcome_no_mean": 17.03
+      },
+      "AI_AutoComplete_attempts": {
+        "r": 0.138,
+        "ci95": [
+          0.006,
+          0.281
+        ],
+        "outcome_yes_mean": 76.03,
+        "outcome_no_mean": 54.01
+      },
+      "AI_Chat_attempts": {
+        "r": 0.113,
+        "ci95": [
+          -0.004,
+          0.237
+        ],
+        "outcome_yes_mean": 26.21,
+        "outcome_no_mean": 20.68
+      },
+      "AI_Agent_attempts": {
+        "r": 0.195,
+        "ci95": [
+          0.066,
+          0.331
+        ],
+        "outcome_yes_mean": 13.33,
+        "outcome_no_mean": 8.66
+      }
+    },
+    "feature_sensitivity": {
+      "AI_AutoComplete": {
+        "n": 232,
+        "events": 33,
+        "terms": {
+          "active_days": {
+            "odds_ratio": 0.795,
+            "ci95": [
+              0.486,
+              1.301
+            ]
+          },
+          "attempts_doubling": {
+            "odds_ratio": 2.899,
+            "ci95": [
+              1.242,
+              6.765
+            ]
+          },
+          "AI_AutoComplete_share_per_10pp": {
+            "odds_ratio": 0.825,
+            "ci95": [
+              0.621,
+              1.098
+            ]
+          }
+        }
+      },
+      "AI_Chat": {
+        "n": 232,
+        "events": 33,
+        "terms": {
+          "active_days": {
+            "odds_ratio": 0.967,
+            "ci95": [
+              0.631,
+              1.482
+            ]
+          },
+          "attempts_doubling": {
+            "odds_ratio": 1.955,
+            "ci95": [
+              1.009,
+              3.788
+            ]
+          },
+          "AI_Chat_share_per_10pp": {
+            "odds_ratio": 0.99,
+            "ci95": [
+              0.774,
+              1.266
+            ]
+          }
+        }
+      },
+      "AI_Agent": {
+        "n": 232,
+        "events": 33,
+        "terms": {
+          "active_days": {
+            "odds_ratio": 0.73,
+            "ci95": [
+              0.453,
+              1.177
+            ]
+          },
+          "attempts_doubling": {
+            "odds_ratio": 3.418,
+            "ci95": [
+              1.535,
+              7.611
+            ]
+          },
+          "AI_Agent_share_per_10pp": {
+            "odds_ratio": 1.702,
+            "ci95": [
+              1.079,
+              2.685
+            ]
+          }
+        }
+      }
+    }
+  },
+  "retained": {
+    "n": 300,
+    "events": 180,
+    "correlations": {
+      "active_days": {
+        "r": 0.329,
+        "ci95": [
+          0.217,
+          0.437
+        ],
+        "outcome_yes_mean": 5.14,
+        "outcome_no_mean": 4.05
+      },
+      "AI_attempts": {
+        "r": 0.243,
+        "ci95": [
+          0.134,
+          0.35
+        ],
+        "outcome_yes_mean": 102.57,
+        "outcome_no_mean": 71.07
+      },
+      "attempts_per_active_day": {
+        "r": 0.154,
+        "ci95": [
+          0.034,
+          0.276
+        ],
+        "outcome_yes_mean": 18.97,
+        "outcome_no_mean": 16.04
+      },
+      "AI_AutoComplete_attempts": {
+        "r": 0.16,
+        "ci95": [
+          0.05,
+          0.265
+        ],
+        "outcome_yes_mean": 66.64,
+        "outcome_no_mean": 48.29
+      },
+      "AI_Chat_attempts": {
+        "r": 0.24,
+        "ci95": [
+          0.135,
+          0.342
+        ],
+        "outcome_yes_mean": 25.01,
+        "outcome_no_mean": 16.45
+      },
+      "AI_Agent_attempts": {
+        "r": 0.276,
+        "ci95": [
+          0.173,
+          0.372
+        ],
+        "outcome_yes_mean": 10.92,
+        "outcome_no_mean": 6.33
+      }
+    },
+    "feature_sensitivity": {
+      "AI_AutoComplete": {
+        "n": 300,
+        "events": 180,
+        "terms": {
+          "active_days": {
+            "odds_ratio": 1.025,
+            "ci95": [
+              0.739,
+              1.423
+            ]
+          },
+          "attempts_doubling": {
+            "odds_ratio": 2.071,
+            "ci95": [
+              1.236,
+              3.471
+            ]
+          },
+          "initial_paid": {
+            "odds_ratio": 1.322,
+            "ci95": [
+              0.718,
+              2.432
+            ]
+          },
+          "AI_AutoComplete_share_per_10pp": {
+            "odds_ratio": 0.809,
+            "ci95": [
+              0.684,
+              0.958
+            ]
+          }
+        }
+      },
+      "AI_Chat": {
+        "n": 300,
+        "events": 180,
+        "terms": {
+          "active_days": {
+            "odds_ratio": 1.207,
+            "ci95": [
+              0.903,
+              1.612
+            ]
+          },
+          "attempts_doubling": {
+            "odds_ratio": 1.542,
+            "ci95": [
+              1.002,
+              2.374
+            ]
+          },
+          "initial_paid": {
+            "odds_ratio": 1.245,
+            "ci95": [
+              0.683,
+              2.269
+            ]
+          },
+          "AI_Chat_share_per_10pp": {
+            "odds_ratio": 1.1,
+            "ci95": [
+              0.949,
+              1.276
+            ]
+          }
+        }
+      },
+      "AI_Agent": {
+        "n": 300,
+        "events": 180,
+        "terms": {
+          "active_days": {
+            "odds_ratio": 1.103,
+            "ci95": [
+              0.801,
+              1.518
+            ]
+          },
+          "attempts_doubling": {
+            "odds_ratio": 1.828,
+            "ci95": [
+              1.109,
+              3.014
+            ]
+          },
+          "initial_paid": {
+            "odds_ratio": 1.278,
+            "ci95": [
+              0.7,
+              2.334
+            ]
+          },
+          "AI_Agent_share_per_10pp": {
+            "odds_ratio": 1.274,
+            "ci95": [
+              0.971,
+              1.674
+            ]
+          }
+        }
+      }
+    }
+  }
+}

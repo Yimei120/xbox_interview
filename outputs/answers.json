@@ -1,0 +1,100 @@
+{
+  "source": "https://github.com/vejadu/InterviewCase-Gaming-PC-App/blob/main/contoso_gaming_pc_app_output.csv",
+  "rows": 7970,
+  "new_accounts": {
+    "total": 300,
+    "Free": 232,
+    "Paid": 68
+  },
+  "daily_retention": {
+    "1": {
+      "players": 182,
+      "denominator": 300,
+      "percent": 60.67
+    },
+    "7": {
+      "players": 161,
+      "denominator": 300,
+      "percent": 53.67
+    },
+    "14": {
+      "players": 149,
+      "denominator": 300,
+      "percent": 49.67
+    },
+    "30": {
+      "players": 121,
+      "denominator": 300,
+      "percent": 40.33
+    },
+    "59": {
+      "players": 87,
+      "denominator": 300,
+      "percent": 29.0
+    }
+  },
+  "weekly_retention": {
+    "W1 (days 1-7)": {
+      "players": 293,
+      "denominator": 300,
+      "percent": 97.67
+    },
+    "W2 (days 8-14)": {
+      "players": 254,
+      "denominator": 300,
+      "percent": 84.67
+    },
+    "W3 (days 15-21)": {
+      "players": 226,
+      "denominator": 300,
+      "percent": 75.33
+    },
+    "W4 (days 22-28)": {
+      "players": 210,
+      "denominator": 300,
+      "percent": 70.0
+    },
+    "W5 (days 29-35)": {
+      "players": 178,
+      "denominator": 300,
+      "percent": 59.33
+    },
+    "W6 (days 36-42)": {
+      "players": 161,
+      "denominator": 300,
+      "percent": 53.67
+    },
+    "W7 (days 43-49)": {
+      "players": 147,
+      "denominator": 300,
+      "percent": 49.0
+    },
+    "W8 (days 50-56)": {
+      "players": 134,
+      "denominator": 300,
+      "percent": 44.67
+    }
+  },
+  "conversion": {
+    "players": 33,
+    "denominator": 232,
+    "percent": 14.22
+  },
+  "paid_cancellations": {
+    "players": 16,
+    "denominator": 101,
+    "percent": 15.84
+  },
+  "cancellations_by_initial_plan": {
+    "initially_Paid": {
+      "players": 13,
+      "denominator": 68,
+      "percent": 19.12
+    },
+    "upgraded_from_Free": {
+      "players": 3,
+      "denominator": 33,
+      "percent": 9.09
+    }
+  }
+}

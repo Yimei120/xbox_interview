@@ -1,0 +1,222 @@
+{
+  "source_sha256": "2efe179b13bd3dba1cbc6817e40395db4f544f76807f82001156c1d0da686067",
+  "matches_current_repository_bytes": true,
+  "rows": 7970,
+  "players": 300,
+  "issues": {},
+  "cohorts": {
+    "3/3/2025": 60,
+    "3/4/2025": 60,
+    "3/5/2025": 60,
+    "3/6/2025": 60,
+    "3/7/2025": 60
+  },
+  "observation_dates": [
+    "2025-03-03",
+    "2025-05-05"
+  ],
+  "day0_players": 300,
+  "max_day": 59,
+  "missing_player_days": 10030,
+  "zero_AI_attempt_rows": 0,
+  "initial_plans": {
+    "Paid": 68,
+    "Free": 232
+  },
+  "upgrades": 33,
+  "cancellations": 16,
+  "last_day_before59_without_explicit_cancellation": 198,
+  "slide2_recomputed": {
+    "threshold": 76.0,
+    "lower": {
+      "n": 151,
+      "retained": 73,
+      "retention_pct": 48.34437086092715,
+      "free_n": 118,
+      "converters": 11,
+      "conversion_pct": 9.322033898305085
+    },
+    "higher": {
+      "n": 149,
+      "retained": 107,
+      "retention_pct": 71.81208053691275,
+      "free_n": 114,
+      "converters": 22,
+      "conversion_pct": 19.29824561403509
+    }
+  },
+  "sensitivity_free_only_same_threshold": {
+    "lower": {
+      "n": 118,
+      "retained": 56,
+      "retention_pct": 47.45762711864407,
+      "free_n": 118,
+      "converters": 11,
+      "conversion_pct": 9.322033898305085
+    },
+    "higher": {
+      "n": 114,
+      "retained": 80,
+      "retention_pct": 70.17543859649123,
+      "free_n": 114,
+      "converters": 22,
+      "conversion_pct": 19.29824561403509
+    }
+  },
+  "within_early_active_days": [
+    {
+      "active_days": [
+        1,
+        3
+      ],
+      "lower": {
+        "n": 75,
+        "retained": 25,
+        "retention_pct": 33.333333333333336,
+        "free_n": 59,
+        "converters": 3,
+        "conversion_pct": 5.084745762711864
+      },
+      "higher": {
+        "n": 1,
+        "retained": 0,
+        "retention_pct": 0.0,
+        "free_n": 1,
+        "converters": 0,
+        "conversion_pct": 0.0
+      }
+    },
+    {
+      "active_days": [
+        4,
+        5
+      ],
+      "lower": {
+        "n": 60,
+        "retained": 37,
+        "retention_pct": 61.666666666666664,
+        "free_n": 49,
+        "converters": 6,
+        "conversion_pct": 12.244897959183673
+      },
+      "higher": {
+        "n": 47,
+        "retained": 31,
+        "retention_pct": 65.95744680851064,
+        "free_n": 37,
+        "converters": 6,
+        "conversion_pct": 16.216216216216218
+      }
+    },
+    {
+      "active_days": [
+        6,
+        7
+      ],
+      "lower": {
+        "n": 16,
+        "retained": 11,
+        "retention_pct": 68.75,
+        "free_n": 10,
+        "converters": 2,
+        "conversion_pct": 20.0
+      },
+      "higher": {
+        "n": 101,
+        "retained": 76,
+        "retention_pct": 75.24752475247524,
+        "free_n": 76,
+        "converters": 16,
+        "conversion_pct": 21.05263157894737
+      }
+    }
+  ],
+  "upgrade_counts_by_day": {
+    "7": 1,
+    "8": 1,
+    "9": 3,
+    "11": 1,
+    "12": 4,
+    "13": 1,
+    "14": 1,
+    "17": 2,
+    "18": 1,
+    "19": 1,
+    "24": 1,
+    "27": 1,
+    "30": 2,
+    "32": 2,
+    "34": 1,
+    "35": 1,
+    "38": 2,
+    "40": 1,
+    "41": 1,
+    "42": 2,
+    "43": 3
+  },
+  "first_week_conversion_count": 11,
+  "day4_6_free_activity_rows": 428,
+  "conversion_journey_prior_active_days_median": 17,
+  "slide2_matches_saved_metrics": true,
+  "active_opportunity_sensitivity": [
+    {
+      "days": [
+        7,
+        13
+      ],
+      "conversions": 11,
+      "observed_pre_upgrade_active_player_days_including_upgrade_day": 857,
+      "conversions_per100_active_opportunities": 1.28
+    },
+    {
+      "days": [
+        14,
+        20
+      ],
+      "conversions": 5,
+      "observed_pre_upgrade_active_player_days_including_upgrade_day": 731,
+      "conversions_per100_active_opportunities": 0.68
+    },
+    {
+      "days": [
+        21,
+        27
+      ],
+      "conversions": 2,
+      "observed_pre_upgrade_active_player_days_including_upgrade_day": 672,
+      "conversions_per100_active_opportunities": 0.3
+    },
+    {
+      "days": [
+        28,
+        34
+      ],
+      "conversions": 5,
+      "observed_pre_upgrade_active_player_days_including_upgrade_day": 553,
+      "conversions_per100_active_opportunities": 0.9
+    },
+    {
+      "days": [
+        35,
+        41
+      ],
+      "conversions": 5,
+      "observed_pre_upgrade_active_player_days_including_upgrade_day": 480,
+      "conversions_per100_active_opportunities": 1.04
+    },
+    {
+      "days": [
+        42,
+        45
+      ],
+      "conversions": 5,
+      "observed_pre_upgrade_active_player_days_including_upgrade_day": 234,
+      "conversions_per100_active_opportunities": 2.14
+    }
+  ],
+  "repository_consistency_tests": {
+    "cohorts_and_activity_days": "passed",
+    "plans_status_and_limits": "passed",
+    "seeded_regeneration_comparison": "not run: no data generated"
+  }
+}

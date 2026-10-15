@@ -1,0 +1,25 @@
+{
+  "threshold": 76.0,
+  "groups": {
+    "lower": {
+      "n": 151,
+      "min_attempts": 6,
+      "max_attempts": 76,
+      "retained": 73,
+      "retention_pct": 48.34437086092715,
+      "free_n": 118,
+      "converted": 11,
+      "conversion_pct": 9.322033898305085
+    },
+    "higher": {
+      "n": 149,
+      "min_attempts": 77,
+      "max_attempts": 386,
+      "retained": 107,
+      "retention_pct": 71.81208053691275,
+      "free_n": 114,
+      "converted": 22,
+      "conversion_pct": 19.29824561403509
+    }
+  }
+}

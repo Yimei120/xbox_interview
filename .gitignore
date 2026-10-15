@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+outputs/slide-*.png
+outputs/*-check.png
+outputs/*-preview.html
+outputs/check_*.cjs
+outputs/export_chart.cjs
+presentation/revise_deck.py

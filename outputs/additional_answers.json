@@ -1,0 +1,355 @@
+{
+  "outcome_definitions": {
+    "early": "days 0\u20136",
+    "retention": "any activity days 28\u201334",
+    "conversion": "upgrade days 7\u201359 among initially Free with no upgrade before day 7"
+  },
+  "usage": {
+    "total": {
+      "lower_half": {
+        "n": 150,
+        "retention_pct": 49.3,
+        "free_at_day7_n": 117,
+        "later_upgrades": 11,
+        "conversion_pct": 9.4,
+        "early_active_days_mean": 3.59
+      },
+      "upper_half": {
+        "n": 150,
+        "retention_pct": 70.7,
+        "free_at_day7_n": 115,
+        "later_upgrades": 22,
+        "conversion_pct": 19.1,
+        "early_active_days_mean": 5.83
+      },
+      "lower_max": 71,
+      "upper_min": 72
+    },
+    "AI_AutoComplete": {
+      "lower_half": {
+        "n": 150,
+        "retention_pct": 51.3,
+        "free_at_day7_n": 115,
+        "later_upgrades": 12,
+        "conversion_pct": 10.4,
+        "early_active_days_mean": 3.73
+      },
+      "upper_half": {
+        "n": 150,
+        "retention_pct": 68.7,
+        "free_at_day7_n": 117,
+        "later_upgrades": 21,
+        "conversion_pct": 17.9,
+        "early_active_days_mean": 5.68
+      },
+      "lower_max": 39,
+      "upper_min": 39
+    },
+    "AI_Chat": {
+      "lower_half": {
+        "n": 150,
+        "retention_pct": 47.3,
+        "free_at_day7_n": 116,
+        "later_upgrades": 14,
+        "conversion_pct": 12.1,
+        "early_active_days_mean": 3.85
+      },
+      "upper_half": {
+        "n": 150,
+        "retention_pct": 72.7,
+        "free_at_day7_n": 116,
+        "later_upgrades": 19,
+        "conversion_pct": 16.4,
+        "early_active_days_mean": 5.57
+      },
+      "lower_max": 15,
+      "upper_min": 15
+    },
+    "AI_Agent": {
+      "lower_half": {
+        "n": 150,
+        "retention_pct": 48.0,
+        "free_at_day7_n": 116,
+        "later_upgrades": 9,
+        "conversion_pct": 7.8,
+        "early_active_days_mean": 3.79
+      },
+      "upper_half": {
+        "n": 150,
+        "retention_pct": 72.0,
+        "free_at_day7_n": 116,
+        "later_upgrades": 24,
+        "conversion_pct": 20.7,
+        "early_active_days_mean": 5.63
+      },
+      "lower_max": 6,
+      "upper_min": 6
+    }
+  },
+  "errors": {
+    "AI_AutoComplete": {
+      "lower_half": {
+        "n": 150,
+        "retention_pct": 58.0,
+        "free_at_day7_n": 115,
+        "later_upgrades": 12,
+        "conversion_pct": 10.4,
+        "early_active_days_mean": 4.38
+      },
+      "upper_half": {
+        "n": 150,
+        "retention_pct": 62.0,
+        "free_at_day7_n": 117,
+        "later_upgrades": 21,
+        "conversion_pct": 17.9,
+        "early_active_days_mean": 5.03
+      },
+      "median_rate": 4.45,
+      "overall_error_rate": 5.07
+    },
+    "AI_Chat": {
+      "lower_half": {
+        "n": 150,
+        "retention_pct": 55.3,
+        "free_at_day7_n": 115,
+        "later_upgrades": 12,
+        "conversion_pct": 10.4,
+        "early_active_days_mean": 4.16
+      },
+      "upper_half": {
+        "n": 150,
+        "retention_pct": 64.7,
+        "free_at_day7_n": 117,
+        "later_upgrades": 21,
+        "conversion_pct": 17.9,
+        "early_active_days_mean": 5.25
+      },
+      "median_rate": 2.52,
+      "overall_error_rate": 5.07
+    },
+    "AI_Agent": {
+      "lower_half": {
+        "n": 150,
+        "retention_pct": 53.3,
+        "free_at_day7_n": 115,
+        "later_upgrades": 13,
+        "conversion_pct": 11.3,
+        "early_active_days_mean": 4.11
+      },
+      "upper_half": {
+        "n": 150,
+        "retention_pct": 66.7,
+        "free_at_day7_n": 117,
+        "later_upgrades": 20,
+        "conversion_pct": 17.1,
+        "early_active_days_mean": 5.31
+      },
+      "median_rate": 0.0,
+      "overall_error_rate": 8.13
+    }
+  },
+  "dominant_feature_normalized": {
+    "AI_AutoComplete": {
+      "n": 43,
+      "retention_pct": 65.1,
+      "free_at_day7_n": 16,
+      "later_upgrades": 2,
+      "conversion_pct": 12.5,
+      "early_active_days_mean": 4.95
+    },
+    "AI_Chat": {
+      "n": 152,
+      "retention_pct": 60.5,
+      "free_at_day7_n": 127,
+      "later_upgrades": 17,
+      "conversion_pct": 13.4,
+      "early_active_days_mean": 4.74
+    },
+    "AI_Agent": {
+      "n": 105,
+      "retention_pct": 57.1,
+      "free_at_day7_n": 89,
+      "later_upgrades": 14,
+      "conversion_pct": 15.7,
+      "early_active_days_mean": 4.56
+    }
+  },
+  "weekend": {
+    "weekend": {
+      "observed_days": 2481,
+      "possible_days": 5100,
+      "activity_pct": 48.6,
+      "attempts_per_active_day": 20.0
+    },
+    "weekday": {
+      "observed_days": 5489,
+      "possible_days": 12900,
+      "activity_pct": 42.6,
+      "attempts_per_active_day": 20.1
+    }
+  },
+  "upgrade_timing": {
+    "count": 33,
+    "median_day": 24,
+    "min": 7,
+    "max": 43,
+    "windows": {
+      "D35\u201341": 5,
+      "D42\u201345": 5,
+      "D21\u201327": 2,
+      "D28\u201334": 5,
+      "D7\u201313": 11,
+      "D14\u201320": 5
+    }
+  },
+  "journey": {
+    "median_active_days_before": 17,
+    "ever_hit_free_cap_before": 25,
+    "hit_free_cap_prior_7_days": 23
+  },
+  "errors_threshold_groups": {
+    "AI_AutoComplete": {
+      "threshold_pct": 4.45,
+      "excluded_no_attempts": 0,
+      "at_or_below_median": {
+        "n": 150,
+        "retention_pct": 58.0,
+        "free_at_day7_n": 115,
+        "later_upgrades": 12,
+        "conversion_pct": 10.4,
+        "early_active_days_mean": 4.38
+      },
+      "above_median": {
+        "n": 150,
+        "retention_pct": 62.0,
+        "free_at_day7_n": 117,
+        "later_upgrades": 21,
+        "conversion_pct": 17.9,
+        "early_active_days_mean": 5.03
+      }
+    },
+    "AI_Chat": {
+      "threshold_pct": 2.55,
+      "excluded_no_attempts": 2,
+      "at_or_below_median": {
+        "n": 149,
+        "retention_pct": 56.4,
+        "free_at_day7_n": 114,
+        "later_upgrades": 12,
+        "conversion_pct": 10.5,
+        "early_active_days_mean": 4.21
+      },
+      "above_median": {
+        "n": 149,
+        "retention_pct": 64.4,
+        "free_at_day7_n": 117,
+        "later_upgrades": 21,
+        "conversion_pct": 17.9,
+        "early_active_days_mean": 5.24
+      }
+    },
+    "AI_Agent": {
+      "threshold_pct": 0.0,
+      "excluded_no_attempts": 11,
+      "at_or_below_median": {
+        "n": 171,
+        "retention_pct": 54.4,
+        "free_at_day7_n": 127,
+        "later_upgrades": 15,
+        "conversion_pct": 11.8,
+        "early_active_days_mean": 4.24
+      },
+      "above_median": {
+        "n": 118,
+        "retention_pct": 72.0,
+        "free_at_day7_n": 94,
+        "later_upgrades": 17,
+        "conversion_pct": 18.1,
+        "early_active_days_mean": 5.55
+      }
+    }
+  },
+  "upgrade_windows_at_risk": [
+    {
+      "days": [
+        0,
+        6
+      ],
+      "upgrades": 0,
+      "not_yet_upgraded_at_start": 232,
+      "pct": 0.0
+    },
+    {
+      "days": [
+        7,
+        13
+      ],
+      "upgrades": 11,
+      "not_yet_upgraded_at_start": 232,
+      "pct": 4.7
+    },
+    {
+      "days": [
+        14,
+        20
+      ],
+      "upgrades": 5,
+      "not_yet_upgraded_at_start": 221,
+      "pct": 2.3
+    },
+    {
+      "days": [
+        21,
+        27
+      ],
+      "upgrades": 2,
+      "not_yet_upgraded_at_start": 216,
+      "pct": 0.9
+    },
+    {
+      "days": [
+        28,
+        34
+      ],
+      "upgrades": 5,
+      "not_yet_upgraded_at_start": 214,
+      "pct": 2.3
+    },
+    {
+      "days": [
+        35,
+        41
+      ],
+      "upgrades": 5,
+      "not_yet_upgraded_at_start": 209,
+      "pct": 2.4
+    },
+    {
+      "days": [
+        42,
+        48
+      ],
+      "upgrades": 5,
+      "not_yet_upgraded_at_start": 204,
+      "pct": 2.5
+    },
+    {
+      "days": [
+        49,
+        55
+      ],
+      "upgrades": 0,
+      "not_yet_upgraded_at_start": 199,
+      "pct": 0.0
+    },
+    {
+      "days": [
+        56,
+        59
+      ],
+      "upgrades": 0,
+      "not_yet_upgraded_at_start": 199,
+      "pct": 0.0
+    }
+  ]
+}
